@@ -1,0 +1,6 @@
+Dataset : Original images 
+Preprocessing :  None
+Augmentation  : None
+
+Images were resized to dimensions 200 x 200 
+Classes were highly skewed
