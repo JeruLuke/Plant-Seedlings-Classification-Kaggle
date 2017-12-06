@@ -4,3 +4,7 @@ Data Augmentation : None
 
 
 Classes were highly skewed.
+
+Validation loss comparitively lower than previous model with some negligible (~0.1%) accuracy.
+
+More data is needed to train the model.
