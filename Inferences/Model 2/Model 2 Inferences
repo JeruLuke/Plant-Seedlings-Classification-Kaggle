@@ -1,0 +1,6 @@
+Dataset : 512 x 512, padded with gray. Images greater than 512 were resized to the same, while images lesser than that were padded to 512.
+Preprocessing : Image padding
+Data Augmentation : None
+
+
+Classes were highly skewed.
