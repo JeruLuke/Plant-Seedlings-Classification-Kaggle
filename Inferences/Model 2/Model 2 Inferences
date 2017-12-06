@@ -5,6 +5,10 @@ Data Augmentation : None
 
 Classes were highly skewed.
 
+Batch size  : 32
+Epochs : 100
+
+
 Validation loss comparitively lower than previous model with some negligible (~0.1%) accuracy.
 
 More data is needed to train the model.
