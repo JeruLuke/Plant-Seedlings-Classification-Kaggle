@@ -50,12 +50,12 @@ for folder in os.listdir(src):
                             top = height_diff/2
                             bottom = height_diff - top
                             
-                            black_pixels = [0, 0, 0]
+                            black_pixels = [150, 150, 150]
                 
                             padded_img = cv2.copyMakeBorder(img, top, left, right, bottom, cv2.BORDER_CONSTANT, value = black_pixels)
 #                            padded_img = cv2.copyMakeBorder(img, top, left, right, bottom, cv2.BORDER_REPLICATE)
                             
-                            cv2.imwrite(dest + folder + '/' + f, padded_img)
+                            cv2.imwrite(dest + folder + '/' + f, cv2.resize(padded_img, (pad_size, pad_size)))
 
 
             
