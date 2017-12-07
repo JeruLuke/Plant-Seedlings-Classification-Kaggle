@@ -1,0 +1,7 @@
+Data size : 512 reduced to 250 as input for the neural network
+Data Augmentation :  randomly chose 1000 images after augmenting 
+Preprocessing : Image padding with gray
+
+Validation performance reduced drastically compared to previous model.
+
+Original size was 512 (including padding), but the image size was reduced to 250 to fit network contrains. Hence small images would have squashed.
