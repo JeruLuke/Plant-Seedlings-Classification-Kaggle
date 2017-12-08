@@ -1,0 +1,6 @@
+Data : Images padded for size 250 so it can be input to the network without squashing
+Preprocessing :  Image padding with gray
+Augmentation : 1000 images per class picked randomly from augmented data (rotation and flipping)
+
+
+Validation loss on an upward curve.
