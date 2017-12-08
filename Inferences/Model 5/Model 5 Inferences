@@ -1,0 +1,10 @@
+Data : 2000 images in each class of size 238
+Preprocessing : Image padding with gray
+Augmentation : rotation and flipping
+
+Network parameters:
+Batch size : 64
+Epochs : 50
+
+Result:
+Validation loss increased and val accuracy was stagnant
