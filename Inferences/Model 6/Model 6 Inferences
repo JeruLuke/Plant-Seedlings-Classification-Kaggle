@@ -1,0 +1,7 @@
+Data          : 2835 images in each class
+Augmentation  : Rotation (90, 180 270) and flips
+Preprocessing : Image padding with gray
+
+Network parameters - 
+Epochs : 50
+Batch  : 64
