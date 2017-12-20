@@ -1,0 +1,8 @@
+Data : Unskewed images from all classes
+Preprocessing : LAB channel images
+No augmentation
+No padding
+
+Model Params:
+  Epochs : 100
+  input image size : 250
